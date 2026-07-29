@@ -30,6 +30,13 @@ cask "macget" do
     "~/Library/HTTPStorages/com.suryansh.Macget",
     "~/Library/Preferences/com.suryansh.Macget.plist",
     "~/Library/Saved Application State/com.suryansh.Macget.savedState",
+    "~/Library/Application Support/Google/Chrome/NativeMessagingHosts/com.suryansh.macget.json",
+    "~/Library/Application Support/Google/Chrome Beta/NativeMessagingHosts/com.suryansh.macget.json",
+    "~/Library/Application Support/Google/Chrome Canary/NativeMessagingHosts/com.suryansh.macget.json",
+    "~/Library/Application Support/Microsoft Edge/NativeMessagingHosts/com.suryansh.macget.json",
+    "~/Library/Application Support/BraveSoftware/Brave-Browser/NativeMessagingHosts/com.suryansh.macget.json",
+    "~/Library/Application Support/Chromium/NativeMessagingHosts/com.suryansh.macget.json",
+    "~/Library/Application Support/Mozilla/NativeMessagingHosts/com.suryansh.macget.json",
   ]
 
   caveats <<~EOS

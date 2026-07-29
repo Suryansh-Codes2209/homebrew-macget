@@ -19,8 +19,9 @@ The fully-qualified name auto-taps, so there is no separate `brew tap` step.
 ## Notes
 
 MacGet updates itself through Sparkle, so the cask is marked `auto_updates true`.
-`brew upgrade` will not replace a copy that has already updated itself; use
-`brew upgrade --greedy macget` if you want Homebrew to reinstall the pinned version.
+A bare `brew upgrade` (no cask named) will skip it for that reason. Naming it
+explicitly still upgrades it: `brew upgrade macget` reinstalls the cask's
+pinned version regardless.
 
 MacGet is not currently notarized by Apple. The cask removes the quarantine
 attribute after install so the app launches without a Gatekeeper prompt.
