@@ -1,6 +1,6 @@
 cask "macget" do
-  version "1.3.0"
-  sha256 "f4f80a26a651cc6e6c7f6892d2190163b81e3f5a28f5c28a4d6b8a32388844df"
+  version "1.4.0"
+  sha256 "f8fadb32357093b35985a959c18c1d2c07d00341a09e3d81cb13dc2ebdcb6fa1"
 
   url "https://github.com/Suryansh-Codes2209/Macget/releases/download/v#{version}/macget.dmg",
       verified: "github.com/Suryansh-Codes2209/Macget/"
