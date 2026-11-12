@@ -2,8 +2,7 @@ cask "macget" do
   version "1.4.0"
   sha256 "f8fadb32357093b35985a959c18c1d2c07d00341a09e3d81cb13dc2ebdcb6fa1"
 
-  url "https://github.com/Suryansh-Codes2209/Macget/releases/download/v#{version}/macget.dmg",
-      verified: "github.com/Suryansh-Codes2209/Macget/"
+  url "https://github.com/Suryansh-Codes2209/Macget/releases/download/v#{version}/macget.dmg"
   name "MacGet"
   desc "Multi-threaded download manager with media, torrent, and book-catalog support"
   homepage "https://macget.suryansh.work/"
